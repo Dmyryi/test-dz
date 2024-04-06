@@ -14,12 +14,39 @@
 
 .navigation-link {
 	font-family: 'TT Hoves Regular';
-
+	position: relative;
+	display: inline-block;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 12px;
 	letter-spacing: 0.2em;
 	text-align: left;
-
+	padding-bottom: 3.89px;
+	padding-top: 3.89px;
 	color: #333333;
+}
+
+.navigation-link::before,
+.navigation-link::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background-color: black;
+	transition: transform 0.3s ease; /* Анимация для плавного появления */
+	transform: scaleX(0); /* Начальное состояние: полоски невидимы */
+}
+
+.navigation-link::before {
+	top: 0;
+}
+
+.navigation-link::after {
+	bottom: 0;
+}
+
+.navigation-link:hover::before,
+.navigation-link:hover::after {
+	transform: scaleX(1);
 }

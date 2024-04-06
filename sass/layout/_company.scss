@@ -48,5 +48,16 @@
 	align-items: center;
 	padding: 24px 65px;
 	margin-top: 20px;
-	background-color: #fff;
+	background-color: #ffffff;
+	fill: #000000;
+	cursor: pointer;
+	transition-property: background-color, transform, fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+	&:hover {
+		background-color: #333;
+		color: #ffffff;
+		fill: #ffffff;
+		transform: translateX(60%);
+	}
 }
