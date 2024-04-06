@@ -93,4 +93,16 @@
 	fill: #fff;
 	margin-top: 30px;
 	margin-left: auto;
+	scale: 100%;
+	cursor: pointer;
+	transition-property: background-color, transform, scale, fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover {
+		background-color: #ffffff;
+		color: #333;
+		fill: #000000;
+		transform: translateX(10%);
+		scale: 110%;
+	}
 }

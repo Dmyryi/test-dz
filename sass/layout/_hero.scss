@@ -74,12 +74,23 @@
 	position: absolute;
 	top: 95.75%;
 	left: 14.3%;
+	background-color: #ffffff;
+	color: #333;
 	transform: translate(-50%, -50%);
 	padding: 24px 50px;
 
 	border: none;
 
 	cursor: pointer;
+	transition-property: background-color, color, transform, fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+	&:hover {
+		background-color: #333;
+		color: #ffffff;
+		fill: #ffffff;
+		transform: translate(-30%, -50%);
+	}
 }
 
 .hero-button-text {
