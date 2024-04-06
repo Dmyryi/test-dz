@@ -1,0 +1,96 @@
+.head-projects {
+	font-family: 'TT Hoves Light';
+	font-size: 64px;
+	font-weight: 300;
+	line-height: 64px;
+	text-align: left;
+	color: #bdbdbd;
+	margin-bottom: 60px;
+}
+
+.projects-big-list {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+.projects-big-item:not(:last-child) {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.projects-big-div {
+	position: relative;
+	display: inline-block; /* Добавьте это свойство */
+}
+
+.projects-big-div::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	opacity: 0.6;
+	z-index: 1;
+}
+
+.projects-big-img {
+	width: 100%;
+	height: auto;
+}
+
+.projects-list {
+	display: flex;
+}
+
+.project-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.projects-big-div {
+	position: relative;
+	display: inline-block;
+}
+
+.project-div-describe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.project-div-head {
+	font-family: 'TT Hoves Bold';
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 64px;
+	text-align: left;
+	color: #fff;
+}
+
+.project-other {
+	display: flex;
+	align-items: center;
+	font-family: 'TT Hoves Light';
+	fill: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-align: left;
+	color: #fff;
+}
+
+.projects-button {
+	display: flex;
+
+	align-items: center;
+	padding: 24px 39px;
+	background-color: $color;
+	color: #fff;
+	fill: #fff;
+	margin-top: 30px;
+	margin-left: auto;
+}

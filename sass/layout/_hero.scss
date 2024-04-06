@@ -1,0 +1,87 @@
+.hero {
+}
+
+.hero-container {
+	display: flex;
+}
+
+.head {
+	padding-top: 336px;
+	margin-right: 122px;
+	font-family: 'TT Hoves Light';
+	font-size: $font-size-hero;
+	font-weight: 300;
+	line-height: $line-height-hero;
+	text-align: left;
+	color: #bdbdbd;
+}
+
+.head-span {
+	display: block;
+	font-family: 'TT Hoves Bold';
+	font-size: $font-size-hero;
+	font-weight: 700;
+	line-height: $line-height-hero;
+	text-align: left;
+	color: $color;
+}
+
+.hero-button-list {
+	display: flex;
+	margin-top: 90px;
+}
+
+.hero-button-item {
+	margin-right: 23px;
+}
+
+.hero-button-arrow {
+	width: 53px;
+	height: 53px;
+	border: none;
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+
+.hero-button-link {
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+.hero-data-text {
+	word-spacing: 35px;
+	font-family: 'TT Hoves Regular';
+	height: 31px;
+	top: 799px;
+	left: 135px;
+	gap: 0px;
+	opacity: 0px;
+	margin-top: 94px;
+	color: #bdbdbd;
+}
+
+.div {
+	position: relative;
+	display: inline-block;
+}
+
+.hero-button-img {
+	width: 221px;
+	height: 71px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 95.75%;
+	left: 14.3%;
+	transform: translate(-50%, -50%);
+	padding: 24px 50px;
+
+	border: none;
+
+	cursor: pointer;
+}
+
+.hero-button-text {
+	padding-right: 12px;
+}

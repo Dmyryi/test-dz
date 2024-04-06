@@ -1,0 +1,88 @@
+// MAIN
+html {
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+// FONTS
+@font-face {
+	font-family: 'TT Hoves Light';
+	src: local('../fonts/Light/TT Hoves Light'),
+		local('../fonts/Light/TT-Hoves-Light'),
+		url('../fonts/Light/TTHoves-Light.woff2') format('woff2'),
+		url('../fonts/Light/TTHoves-Light.woff') format('woff'),
+		url('../fonts/Light/TTHoves-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Hoves Bold';
+	src: local('../fonts/Bold/TT Hoves Bold'),
+		local('../fonts/Bold/TT-Hoves-Bold'),
+		url('../fonts/Bold/TTHoves-Bold.woff2') format('woff2'),
+		url('../fonts/Bold/TTHoves-Bold.woff') format('woff'),
+		url('../fonts/Bold/TTHoves-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF Black';
+	src: url('../fonts/SF_Black/SF-Pro-Display-Black.otf') format('opentype');
+}
+@font-face {
+	font-family: 'TT Hoves Medium';
+	src: local('../fonts/Medium/TT Hoves Medium'),
+		local('../fonts/Medium/TT-Hoves-Medium'),
+		url('../fonts/Medium/TTHoves-Medium.woff2') format('woff2'),
+		url('../fonts/Medium/TTHoves-Medium.woff') format('woff'),
+		url('../fonts/Medium/TTHoves-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Hoves Regular';
+	src: local('../fonts/Regular/TT Hoves Regular'),
+		local('../fonts/Regular/TT-Hoves-Regular'),
+		url('../fonts/Regular/TTHoves-Regular.woff2') format('woff2'),
+		url('../fonts/Regular/TTHoves-Regular.woff') format('woff'),
+		url('../fonts/Regular/TTHoves-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+main {
+	margin-bottom: 120px;
+}

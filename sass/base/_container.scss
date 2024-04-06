@@ -1,0 +1,12 @@
+.container {
+	width: 1177px;
+	margin: 0 auto;
+	padding-left: 8px;
+	padding-right: 8px;
+	.page-header & {
+		display: flex;
+
+		justify-content: space-between;
+		padding: 30px 8px;
+	}
+}

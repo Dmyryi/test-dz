@@ -1,0 +1,59 @@
+.tasks {
+	margin-top: 120px;
+}
+
+.head-tasks {
+	font-family: 'TT Hoves Light';
+	font-size: 64px;
+	font-weight: 300;
+	line-height: 64px;
+	text-align: left;
+	color: #bdbdbd;
+}
+
+.tasks-list {
+	display: flex;
+	margin-top: 60px;
+}
+
+.tasks-item {
+	display: flex;
+	align-items: center;
+}
+
+.tasks-item:not(:last-child) {
+	padding-right: 187px;
+}
+
+.tasks-text {
+	font-family: 'SF_Black';
+	font-size: 200px;
+	font-weight: 900;
+	line-height: 238.67px;
+	text-align: left;
+	color: #f2f2f2;
+}
+
+.tasks-text:not(:last-child) {
+	margin-right: 30px;
+}
+
+.tasks-describe {
+	font-family: 'TT Hoves Regular';
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: left;
+	color: $color;
+	width: 279px;
+}
+
+.tasks-describe2 {
+	width: 420px;
+	font-family: 'TT Hoves Regular';
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: left;
+	color: $color;
+}

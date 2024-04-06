@@ -1,0 +1,25 @@
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.navigation-list {
+	display: flex;
+	margin-left: 330px;
+}
+
+.navigation-item:not(:last-child) {
+	margin-right: 60px;
+}
+
+.navigation-link {
+	font-family: 'TT Hoves Regular';
+
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-align: left;
+
+	color: #333333;
+}
